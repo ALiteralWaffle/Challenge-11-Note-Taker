@@ -31,3 +31,5 @@ app.post("/notes", (req, res) => {
       res.json(notesData);
     });
 });
+
+module.exports = app;
